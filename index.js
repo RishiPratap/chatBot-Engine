@@ -26,7 +26,7 @@ console.log("Chatbot started!");
 rl.setPrompt("> ");
 rl.prompt();
 
- app.post('/book', (req, res) => {
+ app.post('/messenger', (req, res) => {
 		const book = req.body;
 		// Output the book to the console for debugging
 		console.log("response from client: ",book.sender);
