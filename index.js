@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello World, from express');
+    res.send('<h1>Hello World!</h1>');
 });
 
 console.log("Starting Chatbot ...");
