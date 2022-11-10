@@ -36,7 +36,11 @@ console.log("Chatbot started!");
 		async function run() {
 		const response = await manager.process("en", msg);
 		console.log("NLP said: ",response.answer);
-		res.send(response.answer);
+		let objPost = {
+			"receiver": response.answer,
+		}
+		let jsonPost = JSON.stringify(objPost);
+		res.send(jsonPost);
 }
 run();
 });
