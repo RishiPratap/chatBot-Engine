@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "train": "node train.js",
-    "start": "node index.js",
-    "build":  "node train.js && node index.js"
+    "start": "nodemon index.js",
+    "build":  "node train.js && npm start"
   },
   "keywords": [],
   "author": "Rishi Pratap",
