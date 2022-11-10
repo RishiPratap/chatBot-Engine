@@ -1,10 +1,10 @@
 {
   "name": "chatbot_nodejs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "train": "node train.js",
-    "start": "node index.js",
+    "start": "node app.js",
     "build":  "node train.js && npm start"
   },
   "keywords": [],
