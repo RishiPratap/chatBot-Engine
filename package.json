@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "train": "node train.js",
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "build":  "node train.js && npm start"
   },
   "keywords": [],
