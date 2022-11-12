@@ -4,8 +4,7 @@
   "main": "app.js",
   "scripts": {
     "train": "node train.js",
-    "start": "node app.js",
-    "build":  "node train.js && npm start"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Rishi Pratap",
